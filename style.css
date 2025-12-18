@@ -1,0 +1,34 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+         canvas {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+            border-radius: 15px;
+            border: 5px solid rgba(255,255,255,0.3);
+            display: block;
+        }
+        
+        /* Đã xóa các phần .controls và .legend để chúng chỉ hiển thị trong canvas */
+        
+        .footer {
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
